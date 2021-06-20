@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  color: #282828;
+  font-size: 19px;
+  list-style: none;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  min-height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+.title1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.title2 {
+  font-size: 23px;
+  font-weight: 500;
+}
+

@@ -1,0 +1,16 @@
+{
+    "short_name": "Dictionary App",
+    "name": "PWA Dictionary App",
+    "icons": [
+        {
+            "src": "./logo.png",
+            "type":"image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#282828",
+    "background_color": "#ffffff"
+}

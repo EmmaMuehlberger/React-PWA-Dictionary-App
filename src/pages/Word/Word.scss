@@ -1,0 +1,18 @@
+.Word__definition {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(59, 59, 59, 0.1);
+    &:last-of-type {
+        border-bottom: none;
+    }
+    .Word__votes {
+        display: flex;
+        margin-top: 10px;
+        .Word__votesGroup {
+            margin-right: 30px;
+            svg {
+                margin-left: 10px;
+            }
+        }
+    }
+}

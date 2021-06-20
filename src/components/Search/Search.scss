@@ -1,0 +1,29 @@
+.SearchInput {
+    display: inline-flex;
+    align-items: center;
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 20px 0 50px;
+    width: 100%;
+    border: 1px solid #fafafa;
+    &:focus-within {
+        border: 1px solid #183EFA;
+        & > svg {
+            fill: #183EFA !important;
+        }
+    }
+    input {
+        background: #fafafa;
+        border: none;
+        margin-left: 10px;
+        width: 100%;
+        &:focus {
+            outline: none;
+            border: none;
+        }
+        &::placeholder {
+            color: #8f8f8f;
+        }
+    }
+}
